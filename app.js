@@ -19,3 +19,4 @@ const _ = require('lodash')
 const items = [1,[2,[3,[5]]]]
 const newItems = _.flatMapDeep(items)
 console.log(newItems);
+console.log('hello people');
